@@ -1,0 +1,881 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Karri Tejasree, Advocate</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Karri Tejasree — Bar-enrolled advocate (AIBE qualified), BA LLB (Hons), GITAM School of Law. Commercial contracts, corporate advisory, litigation and arbitration support.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single advocate's brief — case-title masthead, then a court "cause list" of chambers, set on cool legal paper with a red-tape accent. */
+:root{
+  --paper:#f6f7f9;
+  --sheet:#ffffff;
+  --ink:#141a26;
+  --ink-2:#4a5263;
+  --rule:#dde1e8;
+  --tape:#a3222f;
+  --tape-soft:#f6e6e7;
+  --f-display:"Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --s1:.75rem; --s2:1.25rem; --s3:2rem; --s4:3.5rem; --s5:5.5rem;
+  --measure:65ch;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f131b; --sheet:#151b26; --ink:#e8ebf1; --ink-2:#9ea6b6;
+    --rule:#273042; --tape:#e0626d; --tape-soft:#2b1a20; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f131b; --sheet:#151b26; --ink:#e8ebf1; --ink-2:#9ea6b6;
+  --rule:#273042; --tape:#e0626d; --tape-soft:#2b1a20; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--f-body); font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--tape);outline-offset:3px;border-radius:2px}
+.wrap{
+  max-width:1080px;margin:0 auto;
+  padding-left:max(16px, env(safe-area-inset-left,0px));
+  padding-right:max(16px, env(safe-area-inset-right,0px));
+}
+.label{
+  font-family:var(--f-mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);
+}
+
+/* Nav */
+nav.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--s2);padding-block:.85rem}
+.mark{font-family:var(--f-display);font-size:1.35rem;text-decoration:none;line-height:1}
+.mark span{color:var(--tape)}
+nav.top ul{display:flex;gap:1.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav.top ul a{text-decoration:none;font-size:.88rem;color:var(--ink-2)}
+nav.top ul a:hover{color:var(--ink)}
+@media (max-width:720px){nav.top ul{display:none}}
+
+/* Hero — case title */
+header.hero{padding-block:var(--s5) var(--s4)}
+.matter{display:flex;align-items:center;gap:.8rem;margin-bottom:var(--s3)}
+.matter::before{content:"";width:2.2rem;height:3px;background:var(--tape)}
+h1{
+  font-family:var(--f-display);font-weight:400;
+  font-size:clamp(3rem,9vw,6.4rem);line-height:.95;letter-spacing:-.01em;margin:0;text-wrap:balance;
+}
+h1 em{font-style:italic;color:var(--tape)}
+.versus{font-family:var(--f-display);font-style:italic;font-size:clamp(1.25rem,2.6vw,1.7rem);color:var(--ink-2);margin:var(--s2) 0 0;max-width:34ch;line-height:1.3}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:var(--s4);margin-top:var(--s4);align-items:start}
+.hero-grid p.lede{margin:0;max-width:var(--measure);font-size:1.08rem;color:var(--ink)}
+.facts{border-top:1px solid var(--ink);margin:0;padding:0;list-style:none}
+.facts li{display:flex;justify-content:space-between;gap:1rem;padding:.7rem 0;border-bottom:1px solid var(--rule);font-size:.92rem}
+.facts li b{font-weight:600}
+.facts li span{color:var(--ink-2);text-align:right}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:var(--s3)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.2rem;border:1px solid var(--ink);text-decoration:none;font-weight:600;font-size:.92rem;background:transparent;color:var(--ink);cursor:pointer;font-family:var(--f-body)}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn:hover{border-color:var(--tape)}
+.btn.primary:hover{background:var(--tape);border-color:var(--tape);color:#fff}
+@media (max-width:820px){.hero-grid{grid-template-columns:1fr;gap:var(--s3)}}
+
+/* Sections */
+section{padding-block:var(--s4);border-top:1px solid var(--rule)}
+.sec-head{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:var(--s3);margin-bottom:var(--s3);align-items:baseline}
+.sec-head h2{font-family:var(--f-display);font-weight:400;font-size:clamp(2rem,4.5vw,2.9rem);line-height:1.05;margin:0;text-wrap:balance}
+.sec-head p{margin:0;color:var(--ink-2);max-width:var(--measure)}
+.sec-body{margin-left:calc(220px + var(--s3))}
+@media (max-width:820px){.sec-head{grid-template-columns:1fr;gap:.6rem}.sec-body{margin-left:0}}
+
+/* Practice areas */
+.practice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.practice article{background:var(--sheet);padding:var(--s2)}
+.practice h3{font-family:var(--f-display);font-weight:400;font-size:1.5rem;margin:.4rem 0 .6rem;line-height:1.15}
+.practice ul{margin:0;padding:0;list-style:none;display:grid;gap:.35rem;font-size:.93rem;color:var(--ink-2)}
+.practice li::before{content:"§ ";color:var(--tape);font-family:var(--f-mono);font-size:.8rem}
+@media (max-width:820px){.practice{grid-template-columns:1fr}}
+
+/* Cause list */
+.cause{width:100%;border-collapse:collapse;font-size:.95rem}
+.cause-scroll{overflow-x:auto}
+.cause thead th{text-align:left;font-family:var(--f-mono);font-weight:500;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding:.6rem .8rem;border-bottom:2px solid var(--ink)}
+.cause td{vertical-align:top;padding:1.2rem .8rem;border-bottom:1px solid var(--rule)}
+.cause td.no{font-family:var(--f-mono);color:var(--tape);font-size:.85rem;width:3.2rem;font-variant-numeric:tabular-nums}
+.cause td.when{font-family:var(--f-mono);font-size:.8rem;color:var(--ink-2);white-space:nowrap;width:10.5rem;font-variant-numeric:tabular-nums}
+.cause .who{font-weight:600;font-size:1.02rem;line-height:1.35}
+.cause .where{color:var(--ink-2);font-size:.87rem;margin-top:.15rem}
+.cause ul{margin:.7rem 0 0;padding-left:1.1rem;color:var(--ink);display:grid;gap:.3rem}
+.cause ul li::marker{color:var(--tape)}
+.tags{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.8rem}
+.tag{font-family:var(--f-mono);font-size:.7rem;padding:.18rem .5rem;border:1px solid var(--rule);color:var(--ink-2);background:var(--paper)}
+@media (max-width:720px){
+  .cause thead{display:none}
+  .cause, .cause tbody, .cause tr, .cause td{display:block;width:auto}
+  .cause tr{padding:1.1rem 0;border-bottom:1px solid var(--rule)}
+  .cause td{border:0;padding:0}
+  .cause td.no{display:inline-block;width:auto;margin-right:.6rem}
+  .cause td.when{display:inline-block;width:auto}
+  .cause td.body{margin-top:.5rem}
+}
+
+/* Research */
+.papers{display:grid;gap:0;border-top:1px solid var(--ink)}
+.paper{display:grid;grid-template-columns:minmax(0,170px) minmax(0,1fr);gap:var(--s2);padding:var(--s2) 0;border-bottom:1px solid var(--rule)}
+.paper h3{font-family:var(--f-display);font-weight:400;font-size:1.45rem;line-height:1.2;margin:0 0 .4rem;text-wrap:balance}
+.paper p{margin:0;color:var(--ink-2);max-width:var(--measure);font-size:.95rem}
+.paper.pub{background:var(--tape-soft);padding-inline:var(--s2);margin-inline:calc(var(--s2) * -1)}
+.paper.pub .label{color:var(--tape)}
+@media (max-width:640px){.paper{grid-template-columns:1fr;gap:.4rem}.paper.pub{margin-inline:0}}
+
+/* Moots */
+.moots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s2)}
+.moot{border-left:3px solid var(--ink);padding:.2rem 0 .2rem var(--s2)}
+.moot h3{margin:0 0 .3rem;font-size:1.02rem;font-weight:600}
+.moot .forum{font-family:var(--f-display);font-style:italic;font-size:1.15rem;color:var(--ink-2);margin:0 0 .5rem}
+.moot p{margin:0;font-size:.92rem;color:var(--ink-2)}
+@media (max-width:720px){.moots{grid-template-columns:1fr}}
+
+/* Credentials */
+.creds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s3)}
+.creds h3{font-family:var(--f-mono);font-weight:500;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin:0 0 .8rem;padding-bottom:.6rem;border-bottom:1px solid var(--ink)}
+.creds dl{margin:0;display:grid;gap:1rem}
+.creds dt{font-weight:600}
+.creds dd{margin:0;color:var(--ink-2);font-size:.92rem}
+.creds ul{margin:0;padding:0;list-style:none;display:grid;gap:.5rem;font-size:.95rem}
+@media (max-width:820px){.creds{grid-template-columns:1fr}}
+
+/* Contact */
+.contact{background:var(--ink);color:var(--paper);border-top:0}
+.contact .label{color:color-mix(in srgb,var(--paper) 65%,transparent)}
+.contact h2{font-family:var(--f-display);font-weight:400;font-size:clamp(2.4rem,6vw,4.2rem);line-height:1;margin:.8rem 0 var(--s3);text-wrap:balance;max-width:16ch}
+.contact h2 em{color:var(--tape);font-style:italic}
+.lines{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s2)}
+.line{border-top:1px solid color-mix(in srgb,var(--paper) 30%,transparent);padding-top:.9rem;min-width:0}
+.line .val{font-size:1.02rem;font-weight:500;margin:.35rem 0 .7rem;word-break:break-word;user-select:all}
+.line .val a{text-decoration:none;border-bottom:1px solid var(--tape)}
+.copy{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;background:transparent;border:1px solid color-mix(in srgb,var(--paper) 40%,transparent);color:var(--paper);padding:.35rem .7rem;cursor:pointer}
+.copy:hover{border-color:var(--tape)}
+@media (max-width:820px){.lines{grid-template-columns:1fr}}
+footer{padding-block:var(--s2);background:var(--ink);color:color-mix(in srgb,var(--paper) 55%,transparent);font-size:.8rem;border-top:1px solid color-mix(in srgb,var(--paper) 15%,transparent)}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+
+/* Entry motion from a visible rest state */
+@keyframes rise{from{transform:translateY(14px);opacity:.001}to{transform:none;opacity:1}}
+.hero h1,.hero .versus,.hero-grid{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.hero .versus{animation-delay:.08s}.hero-grid{animation-delay:.16s}
+
+/* ===== Courtroom motion layer ===== */
+.hero{position:relative;overflow:hidden}
+#glyphs{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.hero .wrap{position:relative;z-index:1}
+.hero.shake .wrap{animation:shake .45s cubic-bezier(.36,.07,.19,.97)}
+@keyframes shake{
+  10%,90%{transform:translate(-1px,1px)}20%,80%{transform:translate(3px,-2px)}
+  30%,50%,70%{transform:translate(-6px,3px) rotate(-.3deg)}40%,60%{transform:translate(6px,-3px) rotate(.3deg)}
+}
+.name-wrap{position:relative;display:inline-block}
+.seal{
+  position:relative;flex:0 0 auto;width:132px;height:132px;border-radius:50%;
+  border:3px solid var(--tape);color:var(--tape);transform:rotate(-12deg);
+  display:grid;place-content:center;text-align:center;pointer-events:none;
+  mix-blend-mode:multiply;opacity:.92
+}
+.seal::before{content:"";position:absolute;inset:6px;border-radius:50%;border:1.5px dashed var(--tape)}
+.seal small{font-family:var(--f-mono);font-size:.56rem;letter-spacing:.16em;text-transform:uppercase;display:block}
+.seal b{font-family:var(--f-display);font-weight:400;font-style:italic;font-size:1.65rem;line-height:1;display:block;margin:.15rem 0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seal{mix-blend-mode:normal}}
+:root[data-theme="dark"] .seal{mix-blend-mode:normal}
+
+.stage{position:absolute;top:-1rem;right:max(16px, env(safe-area-inset-right,0px));width:320px;height:330px}
+.stage svg{position:absolute;overflow:visible}
+.scales{top:0;left:0;width:100%}
+.scales .metal{stroke:var(--ink);fill:none;stroke-width:2.5;stroke-linecap:round}
+.scales .solid{fill:var(--ink)}
+.scales .pan{fill:var(--tape-soft);stroke:var(--ink);stroke-width:2}
+.scales .chain{stroke:var(--ink-2);stroke-width:1.2}
+.scales text{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;fill:var(--ink);text-anchor:middle}
+.scales .finial{fill:var(--tape)}
+.gavel-svg{right:-6px;bottom:-4px;width:140px;cursor:pointer}
+.gavel-svg .solid{fill:var(--ink)}
+.gavel-svg .band{fill:var(--tape)}
+#gavel{transform-box:view-box;transform-origin:132px 54px}
+.gavel-svg:hover #gavel{transform:rotate(6deg);transition:transform .2s}
+.ring{position:absolute;width:30px;height:10px;border:2px solid var(--tape);border-radius:50%;pointer-events:none;transform:translate(-50%,-50%)}
+.order{
+  position:absolute;right:120px;bottom:96px;font-family:var(--f-display);font-style:italic;font-size:1.5rem;
+  color:var(--tape);white-space:nowrap;pointer-events:none;opacity:0
+}
+.hint{position:absolute;right:4px;bottom:-1.6rem;font-family:var(--f-mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+@media (max-width:1040px){
+  .stage{position:relative;top:auto;right:auto;width:250px;height:262px;margin:var(--s3) auto var(--s2)}
+  .gavel-svg{width:110px}
+  .order{right:96px;bottom:74px}
+}
+.verdict{display:flex;align-items:center;gap:2rem;margin-top:var(--s2)}
+.verdict .versus{margin:0;flex:1 1 auto;min-width:0;max-width:30ch}
+@media (max-width:560px){.verdict{gap:1rem}.seal{width:96px;height:96px}.seal b{font-size:1.2rem}.seal small{font-size:.48rem}}
+
+/* scroll progress, in red tape */
+.progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--tape);transform:scaleX(0);transform-origin:left}
+
+/* redaction wipe on headings */
+.sec-head h2,.contact h2{position:relative;width:fit-content}
+.sec-head h2::after,.contact h2::after{content:"";position:absolute;inset:-.04em -.12em;background:var(--ink);transform:scaleX(0);transform-origin:left;pointer-events:none}
+.contact h2::after{background:var(--tape)}
+.sec-head h2.in::after,.contact h2.in::after{animation:redact 1.05s cubic-bezier(.7,0,.3,1)}
+@keyframes redact{0%{transform:scaleX(0);transform-origin:left}46%{transform:scaleX(1);transform-origin:left}54%{transform:scaleX(1);transform-origin:right}100%{transform:scaleX(0);transform-origin:right}}
+
+/* reveal: elements rest fully visible; the class only plays an entrance */
+.rv.in{animation:rise .75s cubic-bezier(.2,.7,.2,1) both}
+.cause tr.in td{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.cause tr.in td.when{animation-delay:.06s}.cause tr.in td.body{animation-delay:.12s}
+
+/* "Completed" docket stamps */
+.cause td.body{position:relative}
+.cause .who,.cause .where{padding-right:8.5rem}
+.stamp{
+  position:absolute;top:1.1rem;right:.6rem;font-family:var(--f-mono);font-weight:500;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--tape);border:2px solid var(--tape);padding:.25rem .55rem;transform:rotate(-7deg);opacity:.85;pointer-events:none
+}
+.cause tr.in .stamp{animation:slam .45s cubic-bezier(.3,1.5,.6,1) .55s both}
+@keyframes slam{0%{transform:rotate(-7deg) scale(3);opacity:0}70%{transform:rotate(-7deg) scale(.9);opacity:.95}100%{transform:rotate(-7deg) scale(1);opacity:.85}}
+@media (max-width:720px){.cause .who,.cause .where{padding-right:0}.stamp{position:static;display:inline-block;margin-top:.9rem}}
+
+/* practice cards tilt like files lifted off the desk */
+.practice{perspective:900px}
+.practice article{transition:transform .25s ease, box-shadow .25s ease;transform-style:preserve-3d;will-change:transform}
+.practice article:hover{box-shadow:0 18px 40px -22px color-mix(in srgb,var(--ink) 55%,transparent);z-index:1;position:relative}
+
+/* signature drawn in ink */
+.sig{display:block;width:min(460px,100%);height:auto;margin:-.5rem 0 var(--s3)}
+.sig text{font-family:var(--f-display);font-style:italic;font-size:96px;fill:var(--paper);stroke:var(--tape);stroke-width:1.2}
+.sig.in text{animation:ink 2.6s ease-out both}
+@keyframes ink{0%{stroke-dasharray:900;stroke-dashoffset:900;fill:transparent}70%{stroke-dashoffset:0;fill:transparent}100%{stroke-dasharray:900;stroke-dashoffset:0;fill:var(--paper)}}
+
+.btn{transition:transform .2s ease, background .2s, border-color .2s, color .2s}
+@media (prefers-reduced-motion: reduce){#glyphs{display:none}}
+
+/* ===== Portrait hero (v3) ===== */
+.hero-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:var(--s4);align-items:end}
+.hero-text{min-width:0}
+h1{font-size:clamp(3rem,7.6vw,5.6rem)}
+.hero .versus{max-width:30ch}
+.hero .lede{margin:var(--s3) 0 0;max-width:58ch;font-size:1.05rem}
+.portrait{position:relative;margin:0;width:100%;max-width:400px;justify-self:end;aspect-ratio:4/5.15;animation:none}
+.arch{
+  position:absolute;inset:16% 0 0 0;border-radius:50% 50% 0 0 / 34% 34% 0 0;overflow:hidden;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 23px, color-mix(in srgb,var(--tape) 14%,transparent) 23px 24px),
+    radial-gradient(120% 80% at 50% 0%, color-mix(in srgb,var(--tape) 22%,var(--tape-soft)), var(--tape-soft));
+  border:1px solid color-mix(in srgb,var(--tape) 35%,transparent)
+}
+.arch .scales{position:absolute;top:6%;left:-4%;width:108%;opacity:.55}
+.arch .scales .metal,.arch .scales .pan{stroke:var(--tape)}
+.arch .scales .solid{fill:var(--tape)}
+.arch .scales .pan{fill:transparent}
+.arch .scales text{fill:var(--tape)}
+#photo{position:absolute;left:0;bottom:0;width:100%;height:auto;max-width:100%;transition:transform .35s ease;
+  filter:drop-shadow(0 18px 24px color-mix(in srgb,var(--ink) 25%,transparent))}
+.portrait::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--tape)}
+.portrait .seal{position:absolute;top:13%;right:-34px;z-index:3;width:118px;height:118px}
+.portrait .seal b{font-size:1.45rem}
+.portrait .gavel-svg{position:absolute;left:-58px;right:auto;bottom:-14px;width:130px;z-index:3}
+.portrait .order{left:40px;right:auto;bottom:118px;z-index:4}
+.portrait figcaption{position:absolute;left:0;right:0;bottom:-2rem;display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.portrait .hint{position:static}
+.hero .facts{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));margin-top:calc(var(--s4) + 1rem);border-top:1px solid var(--ink)}
+.hero .facts li{flex-direction:column;justify-content:flex-start;gap:.15rem;padding:.9rem .9rem .9rem 0;border-bottom:0}
+.hero .facts li span{text-align:left}
+.hero .facts b{font-family:var(--f-mono);font-weight:500;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.hero .facts span{color:var(--ink)!important;font-weight:500}
+@media (max-width:900px){
+  .hero-layout{grid-template-columns:1fr;gap:calc(var(--s4) + 1rem)}
+  .portrait{justify-self:center;max-width:320px}
+  .portrait .gavel-svg{left:-24px;width:104px}
+  .portrait .seal{right:-12px;width:96px;height:96px}
+  .portrait .seal b{font-size:1.15rem}
+  .hero .facts{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:520px){.hero .facts{grid-template-columns:repeat(2,minmax(0,1fr))}.portrait{max-width:280px}}
+
+/* no-photo stage: the scales take the arch */
+.arch{inset:4% 0 0 0}
+.arch .scales{top:16%;left:2%;width:96%;opacity:1}
+.arch .scales .pan{fill:var(--sheet)}
+.arch .scales .chain{stroke:var(--tape)}
+.portrait .seal{top:2%}
+</style>
+
+<nav class="top" aria-label="Primary">
+  <div class="wrap">
+    <a class="mark" href="#top">K. Tejasree<span>.</span></a>
+    <ul>
+      <li><a href="#practice">Practice</a></li>
+      <li><a href="#chambers">Chambers</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#advocacy">Advocacy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="glyphs" aria-hidden="true"></canvas>
+  <div class="wrap hero-layout">
+    <div class="hero-text">
+      <div class="matter label">Advocate · Bar Council of Andhra Pradesh · AIBE qualified</div>
+      <h1>Karri <em>Tejasree</em></h1>
+      <p class="versus">Commercial contracts and corporate advisory, with the courtroom grounding to back them.</p>
+      <p class="lede">A BA LLB (Hons) graduate of GITAM School of Law, enrolled with the Bar and trained across six legal internships covering corporate, civil, criminal, labour, IP and arbitration matters. I am seeking an Associate role in general corporate and transactional practice, and I am equally ready to support litigation and arbitration work.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1wLhy0YRZi9oJk29js9zI8lO_SmN1_3IO?usp=drive_link" target="_blank" rel="noopener">Drafting samples ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/karri-tejasree-94ba63237/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <figure class="portrait" id="stage">
+      <div class="arch" aria-hidden="true">
+        <svg class="scales" viewBox="0 0 320 300">
+        <line class="metal" x1="160" y1="50" x2="160" y2="246"/>
+        <path class="solid" d="M112 262 L208 262 L190 244 L130 244 Z"/>
+        <rect class="solid" x="96" y="262" width="128" height="6" rx="2"/>
+        <g id="beam">
+          <line class="metal" x1="40" y1="50" x2="280" y2="50" style="stroke-width:3.5"/>
+          <circle class="solid" cx="40" cy="50" r="4"/><circle class="solid" cx="280" cy="50" r="4"/>
+        </g>
+        <circle class="finial" cx="160" cy="50" r="7"/>
+        <circle class="finial" cx="160" cy="36" r="4"/>
+        <g id="panL" transform="translate(40 50)">
+          <line class="chain" x1="0" y1="0" x2="-34" y2="82"/><line class="chain" x1="0" y1="0" x2="34" y2="82"/>
+          <path class="pan" d="M-42 82 Q0 116 42 82 Z"/><text x="0" y="96">LAW</text>
+        </g>
+        <g id="panR" transform="translate(280 50)">
+          <line class="chain" x1="0" y1="0" x2="-34" y2="82"/><line class="chain" x1="0" y1="0" x2="34" y2="82"/>
+          <path class="pan" d="M-42 82 Q0 116 42 82 Z"/><text x="0" y="96">FACTS</text>
+        </g>
+      </svg>
+      </div>
+      <div class="seal" id="seal" aria-hidden="true"><small>Bar Council · A.P.</small><b>Enrolled</b><small>AIBE · 2026</small></div>
+      <svg class="gavel-svg" id="gavelSvg" viewBox="0 0 140 110">
+        <rect class="solid" x="8" y="82" width="74" height="14" rx="3" id="block"/>
+        <ellipse class="band" cx="45" cy="82" rx="37" ry="5"/>
+        <g id="gavel">
+          <rect class="solid" x="56" y="51" width="80" height="7" rx="3.5"/>
+          <rect class="solid" x="34" y="30" width="24" height="46" rx="4"/>
+          <rect class="band" x="34" y="36" width="24" height="4"/>
+          <rect class="band" x="34" y="66" width="24" height="4"/>
+        </g>
+      </svg>
+      <div class="order" id="order" aria-hidden="true">Order!</div>
+      <figcaption><span>Law · Facts · Justice</span><span class="hint">Tap the gavel</span></figcaption>
+    </figure>
+  </div>
+  <div class="wrap">
+    <ul class="facts" aria-label="At a glance">
+      <li><b>Degree</b><span>BA LLB (Hons), 2021–26</span></li>
+      <li><b>Enrolment</b><span>Bar Council of A.P.</span></li>
+      <li><b>AIBE</b><span>Qualified</span></li>
+      <li><b>Internships</b><span>6 chambers &amp; offices</span></li>
+      <li><b>Research tools</b><span>SCC Online, Manupatra</span></li>
+      <li><b>Base</b><span>Visakhapatnam · Hyderabad</span></li>
+    </ul>
+  </div>
+</header>
+
+<section id="practice">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="label">Practice areas</div>
+      <div>
+        <h2>Where I add value</h2>
+      </div>
+    </div>
+    <div class="practice">
+      <article>
+        <div class="label">I · Transactional</div>
+        <h3>Contracts &amp; corporate</h3>
+        <ul>
+          <li>Commercial contract drafting</li>
+          <li>Contract review &amp; lifecycle management</li>
+          <li>Transaction documentation</li>
+          <li>Corporate &amp; commercial advisory</li>
+        </ul>
+      </article>
+      <article>
+        <div class="label">II · Disputes</div>
+        <h3>Litigation &amp; arbitration</h3>
+        <ul>
+          <li>Plaints, written statements, affidavits</li>
+          <li>Legal notices &amp; applications</li>
+          <li>Hearing preparation &amp; case tracking</li>
+          <li>Arbitration support</li>
+        </ul>
+      </article>
+      <article>
+        <div class="label">III · Foundations</div>
+        <h3>Research &amp; property</h3>
+        <ul>
+          <li>Statutory &amp; case-law research</li>
+          <li>Property disputes</li>
+          <li>Document review</li>
+          <li>Client coordination to deadline</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="chambers">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="label">Cause list</div>
+      <div>
+        <h2>Chambers &amp; internships</h2>
+        <p>Most recent first. Each entry lists the office, the period and the work I handled there.</p>
+      </div>
+    </div>
+    <div class="cause-scroll">
+      <table class="cause">
+        <thead><tr><th>Sl.</th><th>Period</th><th>Office &amp; matters</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="no">01</td>
+            <td class="when">Dec 2025 – Jan 2026</td>
+            <td class="body">
+              <div class="who">Office of Adv. Kelam Chandra Shekar</div>
+              <div class="where">Public Prosecutor, Anakapalli District Court</div>
+              <ul>
+                <li>Read and analysed case files; assisted with hearing preparation and case documentation.</li>
+                <li>Attended court proceedings with hands-on case tracking and litigation procedure.</li>
+                <li>Drafted legal notices, applications and other legal documents.</li>
+                <li>Prepared and organised documents for ongoing proceedings.</li>
+              </ul>
+              <div class="tags"><span class="tag">Criminal</span><span class="tag">Drafting</span><span class="tag">Trial support</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="no">02</td>
+            <td class="when">Jun 10 – Jul 10, 2025</td>
+            <td class="body">
+              <div class="who">Rahul &amp; Jayshri Associates &amp; Co.</div>
+              <div class="where">Under Adv. Rahul Kumar Singh · Online internship</div>
+              <ul>
+                <li>Drafted commercial documents and researched corporate and IP matters.</li>
+                <li>Prepared drafts, writs and case commentaries on a range of legal propositions.</li>
+                <li>Built working fluency in multidisciplinary drafting and case analysis.</li>
+              </ul>
+              <div class="tags"><span class="tag">Corporate</span><span class="tag">IP</span><span class="tag">Writs</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="no">03</td>
+            <td class="when">May – Jun 2025</td>
+            <td class="body">
+              <div class="who">Office of Adv. Asad Hussain &amp; Prerana Priyanshu and Associates</div>
+              <div class="where">Khairtabad, Hyderabad</div>
+              <ul>
+                <li>Researched labour law, taxation and contractual disputes.</li>
+                <li>Worked on contract dispute matters and identified electronic evidence for court use.</li>
+                <li>Tracked case numbers and hearing directions; observed court proceedings.</li>
+                <li>Assisted the Company Secretary with legal notices and office documentation.</li>
+              </ul>
+              <div class="tags"><span class="tag">Contract disputes</span><span class="tag">Labour</span><span class="tag">Tax</span><span class="tag">E-evidence</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="no">04</td>
+            <td class="when">Dec 2024 – Jan 2025</td>
+            <td class="body">
+              <div class="who">Office of B.A.N. Mohan Rao, Legal Advisor</div>
+              <div class="where">Steel Plant, Visakhapatnam</div>
+              <ul>
+                <li>Studied legal processes under industrial and business legislation.</li>
+                <li>Worked through labour law, contract and arbitration questions in an in-house setting.</li>
+                <li>Attended the Legal Advisor's seminars on compliance, legal documents and arbitration.</li>
+                <li>Reviewed industry-standard contracts and legal papers.</li>
+              </ul>
+              <div class="tags"><span class="tag">In-house</span><span class="tag">Compliance</span><span class="tag">Arbitration</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="no">05</td>
+            <td class="when">Jun 2023 – Jun 2024</td>
+            <td class="body">
+              <div class="who">Office of N.S.V. Reddy, Senior Advocate</div>
+              <div class="where">NSV Law Chambers, Visakhapatnam · Three internships</div>
+              <ul>
+                <li>Drafted plaints, written statements, affidavits, notices and applications.</li>
+                <li>Researched statutory provisions, case law, civil procedure and property disputes.</li>
+                <li>Attended proceedings at every stage, from filing to final judgment.</li>
+                <li>Sat in on client meetings and learned case preparation and litigation strategy.</li>
+              </ul>
+              <div class="tags"><span class="tag">Civil</span><span class="tag">Criminal</span><span class="tag">Property</span><span class="tag">Pleadings</span></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="label">Research &amp; writing</div>
+      <div>
+        <h2>Dissertations and publication</h2>
+        <p>Doctrinal research across gender justice, international maritime law and technology law.</p>
+      </div>
+    </div>
+    <div class="sec-body papers">
+      <div class="paper pub">
+        <div class="label">Published · Legal Services India</div>
+        <div>
+          <h3>Intellectual Property Rights and Their Importance in the E-Commerce Sector</h3>
+          <p>Article published in the e-journal Legal Services India.</p>
+        </div>
+      </div>
+      <div class="paper">
+        <div class="label">AI &amp; Law</div>
+        <div>
+          <h3>Patentability of Artificial Intelligence in India: A Critical Analysis under the CRI Guidelines</h3>
+          <p>Examines how AI-related inventions fare under Indian patent law and the Guidelines for Computer Related Inventions.</p>
+        </div>
+      </div>
+      <div class="paper">
+        <div class="label">Maritime Law</div>
+        <div>
+          <h3>Piracy under International Maritime Law: Legal Framework, Jurisdiction and Contemporary Challenges</h3>
+          <p>Maps the international framework on maritime piracy, the jurisdictional questions it raises, and current enforcement gaps.</p>
+        </div>
+      </div>
+      <div class="paper">
+        <div class="label">Women &amp; Law</div>
+        <div>
+          <h3>Breaking the Chains of Stigma: Legal and Social Fights of Widows in India and the Path to Empowerment</h3>
+          <p>Doctrinal study of the legal and social challenges widows face in India, with analysis of relevant laws and judicial developments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="advocacy">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="label">Moot court &amp; advocacy</div>
+      <div>
+        <h2>On her feet</h2>
+        <p>Memorial drafting, research and oral submissions across four very different forums.</p>
+      </div>
+    </div>
+    <div class="sec-body moots">
+      <div class="moot">
+        <h3>Administrative &amp; Constitutional Law Moot</h3>
+        <p class="forum">Aviation sector</p>
+        <p>Statutory and case-law research, memorial drafting and oral submissions.</p>
+      </div>
+      <div class="moot">
+        <h3>Family Law Moot</h3>
+        <p class="forum">Divorce &amp; restitution of conjugal rights</p>
+        <p>Legal research, memorial drafting and oral arguments.</p>
+      </div>
+      <div class="moot">
+        <h3>POCSO Law Moot</h3>
+        <p class="forum">Child sexual offence matter</p>
+        <p>Statutory and case-law research, legal arguments and oral submissions.</p>
+      </div>
+      <div class="moot">
+        <h3>MAIMS 4th Mock Trial Competition, 2025</h3>
+        <p class="forum">Participant</p>
+        <p>Trial advocacy, legal research and courtroom procedure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="credentials">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="label">Credentials</div>
+      <div><h2>Education &amp; skills</h2></div>
+    </div>
+    <div class="creds">
+      <div>
+        <h3>Education</h3>
+        <dl>
+          <div><dt>BA LLB (Hons)</dt><dd>GITAM School of Law · 2021 – 2026</dd></div>
+          <div><dt>Class XII, Board of Intermediate A.P.</dt><dd>Tirumala Junior College · 2018 – 2020</dd></div>
+          <div><dt>Enrolled Advocate</dt><dd>Bar Council of Andhra Pradesh · AIBE qualified</dd></div>
+        </dl>
+      </div>
+      <div>
+        <h3>Working toolkit</h3>
+        <ul>
+          <li>Legal research on SCC Online and Manupatra</li>
+          <li>Drafting and reviewing commercial agreements</li>
+          <li>Case-law research and case-file analysis</li>
+          <li>Court filing, proceedings and case-status tracking</li>
+          <li>MS Word and PowerPoint</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Languages</h3>
+        <dl>
+          <div><dt>Telugu</dt><dd>Native</dd></div>
+          <div><dt>English</dt><dd>Fluent</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="label">Contact</div>
+    <h2>Open to <em>Associate</em> roles in corporate &amp; transactional practice.</h2>
+    <svg class="sig" id="sig" viewBox="0 0 520 120" aria-label="Signature: K. Tejasree" role="img"><text x="6" y="94">K. Tejasree</text></svg>
+    <div class="lines">
+      <div class="line">
+        <div class="label">Email</div>
+        <div class="val" id="v-email">Tejareekarri456@gmail.com</div>
+        <button class="copy" type="button" id="c-email" data-target="v-email">Copy email</button>
+      </div>
+      <div class="line">
+        <div class="label">Phone</div>
+        <div class="val" id="v-phone">+91 79939 98826</div>
+        <button class="copy" type="button" id="c-phone" data-target="v-phone">Copy number</button>
+      </div>
+      <div class="line">
+        <div class="label">LinkedIn</div>
+        <div class="val"><a href="https://www.linkedin.com/in/karri-tejasree-94ba63237/" target="_blank" rel="noopener">karri-tejasree ↗</a></div>
+        <a class="copy" href="https://drive.google.com/drive/folders/1wLhy0YRZi9oJk29js9zI8lO_SmN1_3IO?usp=drive_link" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none">Drafting samples ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Karri Tejasree, Advocate</span>
+    <span>This page is for informational purposes and is not a solicitation of work.</span>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var el = document.getElementById(btn.dataset.target);
+    var text = el.textContent.trim();
+    var orig = btn.textContent;
+    function done(msg){ btn.textContent = msg; setTimeout(function(){ btn.textContent = orig; }, 1600); }
+    function fallback(){
+      var r = document.createRange(); r.selectNodeContents(el);
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      done('Selected — press copy');
+    }
+    try{
+      navigator.clipboard.writeText(text).then(function(){ done('Copied'); }, fallback);
+    }catch(e){ fallback(); }
+  });
+});
+
+(function(){
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hero = document.querySelector('.hero');
+  var stage = document.getElementById('stage');
+
+  /* ---------- scroll progress (red tape) ---------- */
+  var nav = document.querySelector('nav.top');
+  var bar = document.createElement('div'); bar.className = 'progress'; nav.appendChild(bar);
+  function onScroll(){
+    var h = document.documentElement.scrollHeight - innerHeight;
+    bar.style.transform = 'scaleX(' + (h > 0 ? Math.min(1, scrollY / h) : 0) + ')';
+  }
+  addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  /* ---------- docket stamps on each cause-list entry ---------- */
+  document.querySelectorAll('.cause td.body').forEach(function(td){
+    var s = document.createElement('span'); s.className = 'stamp'; s.textContent = 'Completed';
+    td.appendChild(s);
+  });
+
+  if (reduce) return;
+
+  /* ---------- reveals (content is visible at rest; this only plays an entrance) ---------- */
+  var targets = document.querySelectorAll('.sec-head h2, .contact h2, .practice article, .cause tbody tr, .paper, .moot, .creds > div, .sig');
+  document.querySelectorAll('.practice article, .paper, .moot, .creds > div').forEach(function(el, i){
+    el.classList.add('rv'); el.style.animationDelay = ((i % 4) * 0.08) + 's';
+  });
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting && e.boundingClientRect.top > 0){ e.target.classList.add('in'); io.unobserve(e.target); }
+        else if (e.isIntersecting){ io.unobserve(e.target); }
+      });
+    }, {rootMargin:'0px 0px 12% 0px', threshold:0});
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if (r.top < innerHeight) return; /* already on screen at load: leave as is */
+      io.observe(t);
+    });
+  }
+
+  /* ---------- practice cards tilt ---------- */
+  document.querySelectorAll('.practice article').forEach(function(card){
+    card.addEventListener('pointermove', function(e){
+      var r = card.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      card.style.transform = 'rotateY(' + (x * 10) + 'deg) rotateX(' + (-y * 10) + 'deg) translateZ(10px)';
+    });
+    card.addEventListener('pointerleave', function(){ card.style.transform = ''; });
+  });
+
+  /* ---------- floating legal glyphs ---------- */
+  var cv = document.getElementById('glyphs'), ctx = cv.getContext('2d');
+  var glyphs = ['§','¶','⚖','†','‡','∴','v.','Art. 21','s. 73','O. VII','SCC','AIR','r/w','ibid.','Sec. 138'];
+  var parts = [], W = 0, H = 0, dpr = Math.min(2, devicePixelRatio || 1), mx = -999, my = -999, heroOn = true;
+  function size(){
+    var r = hero.getBoundingClientRect(); W = r.width; H = r.height;
+    cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  function seed(){
+    parts = [];
+    var n = Math.round(Math.min(34, W / 32));
+    for (var i = 0; i < n; i++) parts.push({
+      x: Math.random() * W, y: Math.random() * H, s: 14 + Math.random() * 34,
+      v: .15 + Math.random() * .45, r: (Math.random() - .5) * .6, vr: (Math.random() - .5) * .004,
+      a: .05 + Math.random() * .1, g: glyphs[i % glyphs.length], ox: 0, oy: 0
+    });
+  }
+  size(); seed();
+  addEventListener('resize', function(){ size(); seed(); });
+  hero.addEventListener('pointermove', function(e){ var r = hero.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; });
+  hero.addEventListener('pointerleave', function(){ mx = my = -999; });
+  if ('IntersectionObserver' in window) new IntersectionObserver(function(es){ heroOn = es[0].isIntersecting; }).observe(hero);
+  function inkColor(){ return getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#141a26'; }
+  var ink = inkColor();
+  if (matchMedia) matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(){ ink = inkColor(); });
+  new MutationObserver(function(){ ink = inkColor(); }).observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
+
+  /* ---------- scales of justice: tilt follows the pointer ---------- */
+  var beam = document.getElementById('beam'), panL = document.getElementById('panL'), panR = document.getElementById('panR');
+  var ang = 0, vel = 0, target = 0, pointerActive = false, t0 = performance.now();
+  addEventListener('pointermove', function(e){
+    pointerActive = true;
+    target = Math.max(-1, Math.min(1, (e.clientX / innerWidth) * 2 - 1)) * 14;
+  }, {passive:true});
+  function placeScales(){
+    var rad = ang * Math.PI / 180, c = Math.cos(rad), s = Math.sin(rad);
+    beam.setAttribute('transform', 'rotate(' + ang.toFixed(2) + ' 160 50)');
+    panL.setAttribute('transform', 'translate(' + (160 - 120 * c).toFixed(2) + ' ' + (50 - 120 * s).toFixed(2) + ')');
+    panR.setAttribute('transform', 'translate(' + (160 + 120 * c).toFixed(2) + ' ' + (50 + 120 * s).toFixed(2) + ')');
+  }
+
+  function frame(now){
+    var t = (now - t0) / 1000;
+    var tgt = pointerActive ? target : Math.sin(t * .9) * 7;
+    vel += (tgt - ang) * .018; vel *= .93; ang += vel;
+    placeScales();
+    if (heroOn){
+      ctx.clearRect(0,0,W,H);
+      ctx.fillStyle = ink; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      for (var i = 0; i < parts.length; i++){
+        var p = parts[i];
+        p.y -= p.v; p.r += p.vr;
+        if (p.y < -60){ p.y = H + 40; p.x = Math.random() * W; }
+        var dx = p.x + p.ox - mx, dy = p.y + p.oy - my, d = Math.sqrt(dx*dx + dy*dy);
+        if (d < 140){ var f = (140 - d) / 140 * 3; p.ox += dx / (d || 1) * f; p.oy += dy / (d || 1) * f; }
+        p.ox *= .94; p.oy *= .94;
+        ctx.save(); ctx.globalAlpha = p.a; ctx.translate(p.x + p.ox, p.y + p.oy); ctx.rotate(p.r);
+        ctx.font = (p.g.length > 2 ? 'italic ' : '') + p.s + 'px "Instrument Serif", Georgia, serif';
+        ctx.fillText(p.g, 0, 0); ctx.restore();
+      }
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  /* ---------- the gavel ---------- */
+  var gavel = document.getElementById('gavel'), block = document.getElementById('block');
+  var order = document.getElementById('order'), seal = document.getElementById('seal');
+  function ring(big){
+    var sr = stage.getBoundingClientRect(), br = block.getBoundingClientRect();
+    var el = document.createElement('div'); el.className = 'ring';
+    el.style.left = (br.left - sr.left + br.width / 2) + 'px';
+    el.style.top = (br.top - sr.top + 2) + 'px';
+    stage.appendChild(el);
+    el.animate([{transform:'translate(-50%,-50%) scale(1)',opacity:1},{transform:'translate(-50%,-50%) scale(' + (big ? 14 : 6) + ')',opacity:0}],
+      {duration: big ? 900 : 550, easing:'cubic-bezier(.2,.6,.3,1)'}).onfinish = function(){ el.remove(); };
+  }
+  function thud(big){
+    ring(big);
+    block.animate([{transform:'translateY(0)'},{transform:'translateY(2px)'},{transform:'translateY(0)'}],{duration:160});
+    vel += big ? (Math.random() > .5 ? 4 : -4) : 1.2;
+    if (big){
+      if (big === 2){ setTimeout(function(){ ring(true); }, 120); }
+      hero.classList.remove('shake'); void hero.offsetWidth; hero.classList.add('shake');
+      order.animate([
+        {opacity:0, transform:'translateY(10px) scale(.6) rotate(-6deg)'},
+        {opacity:1, transform:'translateY(-6px) scale(1.15) rotate(-6deg)', offset:.25},
+        {opacity:1, transform:'translateY(-10px) scale(1) rotate(-6deg)', offset:.75},
+        {opacity:0, transform:'translateY(-24px) scale(1) rotate(-6deg)'}
+      ], {duration:1300, easing:'ease-out'});
+    }
+  }
+  var busy = false;
+  function strike(sequence){
+    if (busy) return; busy = true;
+    var kf, dur, hits;
+    if (sequence){
+      dur = 1700;
+      kf = [
+        {transform:'rotate(30deg)', offset:0},
+        {transform:'rotate(0deg)', offset:.12, easing:'ease-out'},
+        {transform:'rotate(22deg)', offset:.24},
+        {transform:'rotate(0deg)', offset:.34, easing:'ease-out'},
+        {transform:'rotate(38deg)', offset:.5},
+        {transform:'rotate(0deg)', offset:.58, easing:'ease-out'},
+        {transform:'rotate(-3deg)', offset:.64},
+        {transform:'rotate(0deg)', offset:1}
+      ];
+      hits = [[.12,0],[.34,0],[.58,2]];
+    } else {
+      dur = 620;
+      kf = [{transform:'rotate(0deg)'},{transform:'rotate(36deg)', offset:.45, easing:'cubic-bezier(.6,0,1,1)'},{transform:'rotate(0deg)', offset:.75},{transform:'rotate(-3deg)', offset:.86},{transform:'rotate(0deg)'}];
+      hits = [[.75,1]];
+    }
+    var easeIn = kf.map(function(k){ return k; });
+    gavel.animate(easeIn, {duration:dur, easing:'linear'}).onfinish = function(){ busy = false; };
+    hits.forEach(function(h){ setTimeout(function(){ thud(h[1]); }, dur * h[0]); });
+    return dur * hits[hits.length - 1][0];
+  }
+
+  /* opening sequence: three strikes, then the Bar seal slams onto the name */
+  setTimeout(function(){
+    var impact = strike(true);
+    seal.animate([
+      {transform:'rotate(-12deg) scale(3.2)', opacity:0},
+      {transform:'rotate(-14deg) scale(.88)', opacity:.95, offset:.65},
+      {transform:'rotate(-12deg) scale(1)', opacity:.92}
+    ], {duration:420, delay:impact - 60, easing:'cubic-bezier(.5,0,.4,1.4)', fill:'backwards'});
+  }, 1500);
+
+  document.getElementById('gavelSvg').addEventListener('click', function(){ strike(false); });
+
+  /* magnetic buttons */
+  document.querySelectorAll('.btn').forEach(function(b){
+    b.addEventListener('pointermove', function(e){
+      var r = b.getBoundingClientRect();
+      b.style.transform = 'translate(' + ((e.clientX - r.left - r.width/2) * .18) + 'px,' + ((e.clientY - r.top - r.height/2) * .3) + 'px)';
+    });
+    b.addEventListener('pointerleave', function(){ b.style.transform = ''; });
+  });
+})();
+</script>
+
+</body></html>
